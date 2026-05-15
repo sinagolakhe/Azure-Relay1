@@ -1,7 +1,7 @@
 const http = require('http');
 const httpProxy = require('http-proxy');
 
-const TARGET_URL = 'koy.golakhman.jo3.org';
+const TARGET_URL = 'https://koy.golakhman.jo3.org';
 
 const keepAliveAgent = new http.Agent({
   keepAlive: true,
